@@ -13,7 +13,7 @@ We compare the sample sizes that would be needed to detect a significant effect 
 
 In the `learning_patient_trajectories` directory, we learn trajectories for subtotals of the MDS-UPDRS II + III motor assessment. Specifically, we look at the 4 treatment settings (untreated, levodopa on phase, levodopa off phase, and MAO-B inhibitor only). Then, for each patient, we fit linear, piecewise linear, and quadratic models to the subtotals. Additional details can be found in Sec. 7.1 of the thesis.
 
-Sec. 7.2 and 8.1 are joint work with Suchan Vivatsethachai and Sophie Sun in a class project. The code for those parts are in another repository.
+Sec. 7.2 and 8.1 involving latent variable modeling and subtyping  are joint work with Suchan Vivatsethachai and Sophie Sun in a class project. The code for those parts are in `latent_trajectory_modeling`.
 
 We take two approaches to subtyping: k-means and non-negative matrix factorization. Our non-negative matrix factorization experiments are built on code from https://github.com/ffaghri1/PD-progression-ML. This part is in the `subtyping` directory. More details can be found in Sec. 8.2 and 8.3 of the thesis.
 
