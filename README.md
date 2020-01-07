@@ -2,7 +2,7 @@
 
 First, we process data from the Parkinson’s Progression Markers Initiative (PPMI) to convert it into a format that is easier to use for downstream machine learning analyses. Utilizing this data, we design novel data-driven outcomes that capture impairment in motor, cognitive, autonomic, psychiatric, and sleep symptoms and allow for heterogeneity in the patient population. Then, we build survival analysis models to predict these outcomes from baseline. Using our motor and hybrid outcomes can reduce the sample sizes and enrollment time for early PD clinical trials. We can provide further reductions by identifying more severe patients for enrollment via survival analysis and binary classification methods. For summarizing patient state, we seek better representations of disease burden by learning trajectories of disease progression. Lastly, we consider ways to use these patient representations and outcomes for discovering subtypes that capture differing rates of progression.
 
-This work is associated with Christina Ji's MEng thesis Modeling progression of Parkinson's disease. If you have any questions about the thesis or code, please feel free to email cji@mit.edu
+This work is associated with Christina Ji's MEng thesis Modeling progression of Parkinson's disease, included in this repository. If you have any questions about the thesis or code, please feel free to email cji@mit.edu
 
 Directories:<br>
 The `ppmi_extraction` directory contains the scripts for extracting PPMI data into ready-to-use csv formats. The PPMI data is available at https://www.ppmi-info.org/. A description of our data processing can be found in Ch. 2 of the thesis.

@@ -1,4 +1,4 @@
-This directory contains the code for various latent variable models to summarize the patient state at each point of their trajectory and then cluster the change in state over time. The code in this repository is from a class project with Suchan Vivatsethachai and Liyang (Sophie) Sun.
+This directory contains the code for various latent variable models to summarize the patient state at each point of their trajectory and then cluster the change in state over time. The code in this repository is from a class project with Suchan Vivatsethachai and Liyang (Sophie) Sun. Our write-up and poster are included in this directory.
 
 In this part, we use the answers from the individual questions in parts  II and III of the MDS-UPDRS assessment. If multiple assessments are taken at a visit at different treatment states, we take the maximum answer for each question. We implemented 3 types of models:
 - Linear factor analysis
